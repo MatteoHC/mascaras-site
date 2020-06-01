@@ -1,0 +1,184 @@
+body {
+	background-color:#b1d6e2;
+	font-family: Candara;
+	margin: 0;
+}
+
+#header{
+	height: 130px;
+	padding: 3px:;
+}
+
+#logo{
+	width: 340px;
+	height:100px;
+	position: relative;
+	left: 50%;
+	margin-left: -170px
+}
+
+#h1logo {
+	float: left;
+	color: white;
+	font-size: 50px;
+	margin: 0;
+	line-height: 100px;
+	/* margin-top: 19px; */
+}
+
+#logoimg {
+	float: left;
+}
+
+#menu{
+
+	height: 30px;
+	background-color: #6e73c7;
+}
+
+.listamenu{
+	
+	width: 350px;
+	position: relative;
+	left: 50%;
+	margin: 0px;
+	margin-left: -175px
+
+}
+
+.listamenu li {
+	display:inline-block;
+}
+
+.listamenu li a{
+	text-decoration: none;
+	height: 28px;
+	line-height: 28px;
+	padding: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.listamenu li a:link {
+	color: white;
+}
+
+.listamenu li a:visited {
+	color: white;
+}
+
+.listamenu li a:hover {
+	color: #6e73c7;
+	background-color: white;
+}
+
+.atual {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#content {
+	background-color: white;
+	width: 700px;
+	position: relative;
+	left: 50%;
+	margin-left: -350px;
+}
+#promocao {
+	height: 200px;
+	background-image: url('brigadeiros.png');
+}
+
+#promoh1{
+	margin: 0;
+	text-shadow: 2px 2px 4px black; 
+	margin-left: 25px;
+	color: white;
+	font-size: 64px
+
+}
+
+#valor {
+	margin: 0;
+	position: relative;
+	text-shadow: 2px 2px 4px black;
+	color: white;
+	font-size: 48px;
+	left: 400px;
+	top: 50px;
+	width: 500px;
+}
+#tituloconteudo {
+	color: #6e73c7;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#areamaisvendidos table {
+	border-spacing: 24px;
+	text-align: center;
+	border-collapse: separate;
+}
+
+#areamaisvendidos td {
+	color:#6e73c7;
+	font-size:20px;
+	width: 250px;
+}
+
+#areamaisvendidos img {
+	width: 150px;
+	height: 150px;
+	margin-top: 7px;
+	border-radius: 20%;
+	border:2px solid #6e73c7 ;
+}
+
+#areamaisvendidos p {
+	margin: 0;
+}
+
+.tituloproduto {
+	font-weight: bold;
+}
+
+#zap {
+	position:fixed;
+	width: 300px;
+	height: 100px;
+	bottom: 30px;
+	right:30px;
+}
+
+#zap img {
+	border: 3px solid #6e73c7;
+	border-radius: 50%;
+}
+
+#tel{
+	position: absolute;
+	left: 120px;
+	height: 75px;
+	background-color: #6e73c7;
+	color: white;
+	margin-top: 13px;
+	padding: 10px;
+	padding-bottom: 0px;
+	border-radius: 15px;
+}
+
+#tel h4 {
+	font-size: 23px;
+	margin: 0;
+}
+
+#tel h5 {
+	margin:0;
+	margin-top: 10px;
+}
+
+#tel a {
+	color: white;
+	text-decoration: none;
+
+}
